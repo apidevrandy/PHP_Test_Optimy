@@ -25,9 +25,6 @@ class Controller
             'news' => $newsList,
             'comments' => $commentsList
         ];
-
-        // pass array to be used in view
-        extract($viewData);
         
         require "app/views/View.php";
     }
